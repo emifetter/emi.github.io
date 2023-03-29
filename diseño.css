@@ -1,0 +1,898 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.coutas h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Zen kurenaido';
+    
+
+}
+
+
+
+
+
+
+
+
+.coutas{
+    background-color: orange;
+    padding: 5px;
+    height: 28px;
+}
+
+.coutas .icono img{
+ 
+    height: 28px;
+    margin-right: 28px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    float: right;   
+
+    
+}
+
+.coutas .icono img:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+
+.coutas .redes img{
+    height: 28px;
+    margin-left: 15px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    float: left;
+}
+
+
+.coutas .redes img:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+    
+}
+
+.nombrepag{
+    padding: 20px;
+    height: 70px;
+    background-color: black;
+
+}
+
+.nombrepag h1{
+    color: rgb(255, 255, 255);
+    margin-left: 20%;
+    font-family: 'Zen kurenaido';
+}
+
+nav{
+    
+    background-color: orange;
+    padding: 5px;
+    height: 28px;
+    
+}
+.menu-hor{
+    list-style: none;
+    display:flex;
+    font-size: 20px;
+    font-family: 'Zen kurenaido';
+    text-align: center;
+    left: 40%;
+    position: absolute;
+    margin-bottom: 10px;
+    
+}
+
+.menu-vert > li >a{
+    color: black;
+    padding: 3px 3px;
+    text-decoration: none;
+}
+.menu-hor > li > a{
+    
+    padding: 2px 2px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+    
+}
+
+.fondo{
+    margin-top: 10px;
+}
+
+
+
+.menu-hor > li > a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+}
+
+.menu-vert{
+    position:absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(231, 231, 231);
+    
+
+}
+
+.menu-vert >li > a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+}
+
+.menu-hor li:hover .menu-vert{
+    display: block;
+}
+
+.container{
+    position: absolute;
+    left: 46%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    
+    
+}
+
+.fondo img{
+    box-shadow: 25px 25px 8px gray;
+    margin-top: 22px;
+    width: 96%;
+    margin-left: 35px;
+}
+
+.fondo img:hover{
+    cursor: pointer;
+
+}
+
+input{
+    outline: none;
+    box-sizing: border-box;
+    height: 28px;
+    width: 28px;
+    padding: 0 5px;
+    color: black;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid rgb(126, 32, 32);
+    transition: all .8s  ease-out;
+    
+    
+}
+
+::placeholder{
+    color: grey;
+}
+
+.btn{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(204, 124, 58);
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .6s;
+    
+
+}
+.btn i{
+    font-size: 25px;
+    color: white;
+    line-height: 20px;
+    transition: all .7s ease;
+    
+}
+
+.container:hover input{
+    width: 350px;
+    
+    
+}
+
+.container:hover i{
+    transform: rotate(-360deg);
+}
+
+
+.btn:hover{
+    background-color: red;
+}
+
+
+.zapastop{
+    
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.637);
+    border-radius: 17px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 80px;
+    
+}
+
+.zapas2{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.637);
+    border-radius: 17px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.zapas3{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.637);
+    border-radius: 17px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.zapas4{
+
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.637);
+    border-radius: 17px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 80px;
+
+}
+
+.zapashom{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.637);
+    border-radius: 17px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.zapashom p{
+    position: absolute;
+    text-align: left;
+    margin-left:-112px;
+    margin-top: -42px;
+    font-family: 'Zen kurenaido';
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.zapas p{
+    position: absolute;
+    text-align: left;
+    margin-left:-112px;
+    margin-top: -42px;
+    font-family: 'Zen kurenaido';
+    font-size: 1.5em;
+    font-weight: bold
+
+}
+
+
+
+.zapastop img{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    object-fit: cover;
+    
+    border-radius: 10%;
+    margin-left:0px;
+}
+
+.zapas{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.637);
+    border-radius: 17px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.zapas2 img{
+
+    height: 80%;
+    margin-left: 140px;
+    margin-top: 6px;
+    display: flex;
+    object-fit: cover;
+    
+
+}
+
+.zapas img{
+    height: 80%;
+    margin-left: 14px;
+    margin-top: 6px;
+    display: flex;
+    object-fit: cover;
+
+}
+
+.zapas3  img{
+    height: 70%;
+    margin-left: 30px;
+    margin-top: 6px;
+    display: flex;
+    object-fit: cover;
+}
+
+.zapas4 img{
+
+    height: 70%;
+    margin-left: 30px;
+    margin-top: 6px;
+    display: flex;
+    object-fit: cover;
+}
+
+
+
+.zapastop p{
+    position: absolute;
+    text-align: left;
+    margin-left:-112px;
+    margin-top: -42px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.zapas2 img{
+    height: 80%;
+    margin-left: 40px;
+    margin-top: 6px;
+}
+
+
+.zapas2 img:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+
+.zapas3 img:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+
+
+.zapas4 img:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+
+.zapashom img:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+.zapastop img:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+
+.zapas img:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+
+.fondo p{
+  
+    width: 100%;
+    text-align: left;
+    font-size: 2.8rem;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 0 0 8px rgb(172, 135, 105);
+   
+}
+
+.zapashom img{
+    height: 80%;
+    margin-left: 40px;
+    margin-top: 6px;
+}
+
+.footer{
+    
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: #000000;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.637);
+    float: left;
+    margin-top: 41px;
+    
+}
+
+.footer h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Zen kurenaido';
+    font-size: 1.5em;
+}
+
+.info li a{
+    color: rgb(255, 255, 255);
+    font-family: 'Zen kurenaido';
+    font-size: 1.5em;
+    text-decoration: none;
+    display: flex;
+    margin-left: 150px;
+
+}
+
+
+.info2 li a{
+    color: rgb(255, 255, 255);
+    font-family: 'Zen kurenaido';
+    font-size: 1.5em;
+    text-decoration: none;
+    display: flex;
+    margin-left: 150px;
+
+}
+
+
+.info3 li a{
+    color: rgb(255, 255, 255);
+    font-family: 'Zen kurenaido';
+    font-size: 1.5em;
+    text-decoration: none;
+    display: flex;
+    margin-left: 150px;
+
+}
+
+.zapastop button{
+    
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 22px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 20px;
+    width: 100px;
+    margin-top: 250px;
+    margin-left: -55px;
+    border-radius: 12px;
+}
+
+.zapas2 button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 22px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 20px;
+    width: 100px;
+    margin-top: 250px;
+    margin-left: -85px;
+    border-radius: 12px;
+    
+}
+
+
+.zapas button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 22px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 20px;
+    width: 100px;
+    margin-top: 250px;
+    margin-left: -55px;
+    border-radius: 12px;
+    
+}
+
+.zapas3 button{
+  
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 22px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 20px;
+    width: 100px;
+    margin-top: 250px;
+    margin-left: -55px;
+    border-radius: 12px;
+    
+}
+
+
+button:hover{
+    transform: scale(0.8);
+}
+
+.zapashom button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 22px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 20px;
+    width: 100px;
+    margin-top: 250px;
+    margin-left: -85px;
+    border-radius: 12px;
+    
+}
+
+.zapas4 button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 22px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 20px;
+    width: 100px;
+    margin-top: 250px;
+    margin-left: -55px;
+    border-radius: 12px;
+    
+}
+
+.zapas2 h6{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top: 215px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+}
+
+
+.zapas2 h5{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top: -155px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+}
+
+
+.zapas2 h5{
+    position: absolute;
+    text-align: left;
+    margin-left:20px;
+    margin-top: 175px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(243, 128, 33);
+}
+
+@media (max-width: 500px) {
+
+    .fondo p {
+        max-width: 20%;
+        font-size: 1rem;
+        top: 46%;
+        text-align: left;
+        left: 20%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+        
+    }
+
+    .fondo img{
+        height: 100%;
+        width: 100%;
+    }
+
+
+}
+
+nav.activado{
+    display: flex;
+}
+
+
+.zapastop h1{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top: 180px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1em;
+    color: orange;
+
+}
+
+.zapas2 h1{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top: -60px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1em;
+    color: orange;
+}
+
+.zapas3 h1{
+
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top: -40px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1em;
+    color: orange;
+
+}
+
+.zapas4 h1{
+
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top: -40px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1em;
+    color: orange;
+
+}
+
+
+.zapashom h1{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top:-80px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1em;
+    color: orange;
+    
+    
+}
+
+
+.zapas h1{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top: -50px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1em;
+    color: orange;
+    
+    
+}
+
+
+.zapas h2{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top: -25px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.zapas2 h2{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top: -25px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.zapas3 h2{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top: -15px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.zapas4 h2{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top: -20px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.zapastop h2{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top: 205px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+
+.zapashom h2{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top: -60px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+
+.zapashom h3{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top:-30px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+
+.zapas2 h3{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top:-3px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+
+.zapas3 h3{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top:20px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+
+.zapas4 h3{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top: 10px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.zapas h3{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top:10px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+
+.zapastop h3{
+    position: absolute;
+    text-align: left;
+    margin-left:22px;
+    margin-top: 250px;
+    font-family: 'Zen kurenaido';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    
+    
+}
